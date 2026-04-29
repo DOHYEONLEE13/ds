@@ -1,8 +1,5 @@
-#include  <stdio.h>
-#include  <stdlib.h>
+#include <stdlib.h>
 #include "stackL.h"
-
-stackNode* top;				// top 변수 정의
 
 // 스택이 공백 상태인지 확인하는 연산
 int isStackEmpty() {

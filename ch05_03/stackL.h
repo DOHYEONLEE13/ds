@@ -6,7 +6,7 @@ typedef struct  stackNode {	// 스택의 노드를 구조체로 정의
 	struct stackNode* link;
 } stackNode;
 
-stackNode* top;				// 스택의 top 노드를 지정하기 위해 포인터 top 선언
+extern stackNode* top;				// 스택의 top 노드를 지정하기 위해 포인터 top 선언
 
 int isStackEmpty();
 void push(element item);
